@@ -346,7 +346,7 @@ if ($prop !== 'display_properties_only') :
 
 			// The Download Button
 			$actions_arr[] = '
-				<a href="' . $dl_link . '" class="' . $file_classes . $analytics_classes . ' btn-success fcfile_downloadFile" title="'.htmlspecialchars($downloadsinfo, ENT_COMPAT, 'UTF-8').'" ' . ($non_file_url ? 'target="_blank"' : '') . '>
+				<a href="' . $dl_link . '" class="' . $file_classes . ' btn-success fcfile_downloadFile ' . $analytics_classes . '" title="'.htmlspecialchars($downloadsinfo, ENT_COMPAT, 'UTF-8').'" ' . ($non_file_url ? 'target="_blank"' : '') . '>
 					' . $downloadstext . '
 				</a>';
 		}
@@ -425,7 +425,7 @@ if ($prop !== 'display_properties_only') :
 			// The download link, if filename/title not shown, then display a 'download' prompt text
 			$actions_arr[] =
 				($filename_shown && $link_filename ? $icon.' ' : '')
-				.'<a href="' . $dl_link . '" class="' . $file_classes . $analytics_classes . ' fcfile_downloadFile" title="' . htmlspecialchars($downloadsinfo, ENT_COMPAT, 'UTF-8') . '" ' . ($non_file_url ? 'target="_blank"' : '') . '>'
+				.'<a href="' . $dl_link . '" class="' . $file_classes . ' fcfile_downloadFile ' . $analytics_classes . '" title="' . htmlspecialchars($downloadsinfo, ENT_COMPAT, 'UTF-8') . '" ' . ($non_file_url ? 'target="_blank"' : '') . '>'
 				.($filename_shown && $link_filename ? $name_str : $downloadstext)
 				.'</a>';
 		}
