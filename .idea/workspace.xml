@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2306a0-560e-4c03-b7f3-b6e0ed00b470" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/plugins/flexicontent_fields/file/tmpl/value_InlineBoxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/flexicontent_fields/file/tmpl/value_InlineBoxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/defineconstants.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/defineconstants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexicontent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flexicontent.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
