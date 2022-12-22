@@ -126,7 +126,7 @@ if (!defined('FLEXI_ICONPATH'))		define('FLEXI_ICONPATH'	, FLEXI_J16GE ? 'media/
 
 // Version constants
 define('FLEXI_PHP_NEEDED',	'7.0.0');
-define('FLEXI_PHP_RECOMMENDED',	'7.4.30');
+define('FLEXI_PHP_RECOMMENDED',	'8.0.25');
 define('FLEXI_VERSION', '3.3.15');
 define('FLEXI_RELEASE',	'');
 define('FLEXI_VHASH',	md5(filemtime(__FILE__) . filectime(__FILE__) . FLEXI_VERSION));
